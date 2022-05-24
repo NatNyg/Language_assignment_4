@@ -3,7 +3,7 @@
 ## This is the repository for assignment 4 in Language Analytics.
 
 ### Project Description
-This project performs text classification using two different approaches: benchmark classification and deep learning. The goal is for both of the approaches to be able to predict whether a comment from our dataset "VideoCommentsThreatCorpus.csv" is toxic or not. The aim is then to compare the two different methods, in order to see the difference in the results and thus conclude which of the methods that are performing better on this specific classification task. 
+This project performs text classification using two different approaches: benchmark classification and deep learning. The goal is for both of the approaches to be able to predict whether a comment from the dataset "VideoCommentsThreatCorpus.csv" is toxic or not. The aim is then to compare the two different methods, in order to see the difference in the results and thus conclude which of the methods that are performing better on this specific classification task. 
 
 ### Repository Structure
 
@@ -44,7 +44,7 @@ The second method is deep learning, and for this script the following things are
 In order to reproduce the results I have gotten (and which can be found in the "out" folder), a few steps has to be followed:
 
 1) Install the relevant packages - relevant packages for both scripts can be found in the "requirements.txt" file.
-2) Make sure to place the script in the "src" folder and the data in the "in" folder. The data used for this project can is placed in the in folder.
+2) Make sure to place the script in the "src" folder and the data in the "in" folder. The data used for this project can be accessed through this link: https://www.simula.no/sites/default/files/publications/files/cbmi2019_youtube_threat_corpus.pdf 
 3) Run the script from the terminal and remember to pass the required arguments:
 -> For the dl.py script: -ds (dataset) and -es (embedding_size) 
 -> For the benchmark_classification.py script: -ds (dataset) and -fe (max_features) 
