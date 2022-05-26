@@ -1,0 +1,15 @@
+In order for the scripts to run, a few packages has to be installed first.
+
+For the benchmark classification script:
+- pandas
+- scikit-learn
+
+For the deep learning script:
+- tqdm 
+- pandas
+- numpy
+- tensorflow
+- scikit-learn
+- beautifulsoup4 
+- nltk
+- contractions 
