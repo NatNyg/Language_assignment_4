@@ -50,12 +50,16 @@ In order to reproduce the results I have gotten (and which can be found in the "
 -> For the benchmark_classification.py script: -ds (dataset) and -fe (max_features) 
 -> Make sure to navigate to the main folder before executing the script - then you just have to type the following in the terminal: 
 
-"python src/dl_ass.py -ds {name_of_the_dataset} -es {embedding_size}" for the dl.py
-"python src/benchmark_classification.py -ds {name_of_the_dataset} -fe {max_features}"
+"python src/dl_ass.py -ds {name_of_the_dataset} -es {embedding_size}" for the dl.py script 
+
+&
+
+"python src/benchmark_classification.py -ds {name_of_the_dataset} -fe {max_features}" for the benchmark_classification.py script 
 
 
-This should give you the same results as I have gotten in the "out" folder.
+This should give you the same results as I have gotten in the "out" folder. The scripts both allow flexibility for the user to perform the tasks on other datasets - as long as the format and column names are the same as for the data used for my project.  
 
 ### Results
 
 As the aim of this project was to compare the two classification methods (benchmark classification and deep learning), it is interesting to look into the results of my classification reports. This shows what I would have expected before going into the tasks; that the deep learning method performs better on this task. With a max precision of 98% for predictions on the non-toxic comments, this model performs 18% better than the benchmark classification does at best, with a maximum precision of 80% for predictions on the toxic comments. However, I do actually think the results are pretty good for both of the methods, and the benchmark classification is extremely fast to run, which is something worth taking into consideration.
+The fact that the user has the possibility to alternate max features for the benchmark classification and the embedding size for the deep learning makes it easy to fiddle around in order to optimize results.
