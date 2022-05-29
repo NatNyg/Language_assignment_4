@@ -44,7 +44,7 @@ The second method is deep learning, and for this script the following things are
 In order to reproduce the results I have gotten (and which can be found in the "out" folder), a few steps has to be followed:
 
 1) Install the relevant packages - relevant packages for both scripts can be found in the "requirements.txt" file.
-2) Make sure to place the script in the "src" folder and the data in the "in" folder. The data used for this project can be accessed through this link: https://www.simula.no/sites/default/files/publications/files/cbmi2019_youtube_threat_corpus.pdf 
+2) Make sure to place the script in the "src" folder and the data in the "in" folder. Further the folder "utils" also has to be placed in the "src" folder, since it contains the clf function that I import and use in my script. The data used for this project can be accessed through this link: https://www.simula.no/sites/default/files/publications/files/cbmi2019_youtube_threat_corpus.pdf 
 3) Run the script from the terminal and remember to pass the required arguments:
 -> For the dl.py script: -ds (dataset) and -es (embedding_size) 
 -> For the benchmark_classification.py script: -ds (dataset) and -fe (max_features) 
